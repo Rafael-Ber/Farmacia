@@ -1,0 +1,32 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 31-03-2024
+Empresa: Abstergo Industries 
+Responsável: Rafael Henrique Bernardo
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries , realizado por Rafael henrique bernardo. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- AWS EC2
+- Provisionamento de Máquinas Virtuais: Utilizamos o serviço AWS EC2 para provisionar instâncias virtuais de servidores. Cada instância é configurada com os recursos necessários para suportar o sistema de gerenciamento de estoque da farmácia.
+- Centralização de Dados: O uso do AWS EC2 permite a centralização de todos os dados de estoque da farmácia em um único banco de dados, facilitando o acesso e a gestão das informações.
+
+Etapa 2: 
+- Amazon CloudFront
+- Entrega de Conteúdo Rápida: O CloudFront utiliza uma rede global de servidores para armazenar em cache conteúdo estático e dinâmico, permitindo que ele seja entregue aos usuários finais com baixa latência e alta velocidade de transferência, independentemente da localização geográfica do usuário.
+- Escalabilidade Global: Conforme a base de usuários da empresa cresce em diferentes regiões geográficas, o CloudFront se adapta automaticamente ao aumento do tráfego, garantindo que os vídeos sejam entregues de forma eficiente, independentemente da localização dos espectadores.
+
+Etapa 3: 
+- Amazon Relational Database Service (RDS)
+- Gerenciamento Simplificado de Banco de Dados Relacional: O Amazon RDS simplifica o processo de configuração, operação e escalabilidade de bancos de dados relacionais, como MySQL, PostgreSQL, Oracle, SQL Server e MariaDB. Ele gerencia tarefas operacionais rotineiras, como aplicação de patches, backups, restaurações e monitoramento de banco de dados, permitindo que os desenvolvedores foquem no desenvolvimento de aplicativos em vez de gerenciar a infraestrutura do banco de dados.
+- Escalabilidade Flexível: Com opções de dimensionamento vertical e horizontal, o RDS permite que a empresa ajuste os recursos do banco de dados de acordo com as necessidades do aplicativo, garantindo um desempenho consistente e uma experiência de usuário satisfatória.
+
+
+
+## Conclusão
+A implementação de ferramentas na empresa Abstergo Industries tem como esperado a melhor produtividade e funcionamento, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
